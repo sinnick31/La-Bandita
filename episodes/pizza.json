@@ -1,0 +1,127 @@
+{
+  "id": "pizza",
+  "title": "El juicio del último trozo de pizza",
+  "description": "Una pizza desaparece y Krono abre una investigación absurda. ¿Quién fue el culpable? #LaBandita #Humor #Animales",
+  "scenes": [
+    {
+      "speaker": "NARRADOR",
+      "text": "En esta casa desapareció una pizza. Quedaba un solo trozo y alguien estaba a punto de perder la custodia del sofá.",
+      "characters": [
+        "Krono",
+        "Kuky",
+        "Zeus"
+      ]
+    },
+    {
+      "speaker": "KRONO",
+      "text": "Todos al salón. Tenemos un delito alimentario.",
+      "characters": [
+        "Krono",
+        "Kuky",
+        "Zeus"
+      ]
+    },
+    {
+      "speaker": "KUKY",
+      "text": "Exijo un abogado y una pizza nueva por daños emocionales.",
+      "characters": [
+        "Krono",
+        "Kuky",
+        "Zeus"
+      ]
+    },
+    {
+      "speaker": "ZEUS",
+      "text": "Yo exijo que Krono deje de gritar. El delito ya es bastante grave.",
+      "characters": [
+        "Krono",
+        "Kuky",
+        "Zeus"
+      ]
+    },
+    {
+      "speaker": "KRONO",
+      "text": "La evidencia te señala, Issi. ¡Hay migas junto a ti!",
+      "characters": [
+        "Krono",
+        "Issi",
+        "Zeus"
+      ]
+    },
+    {
+      "speaker": "ISSI",
+      "text": "¡Son migas de otro día! ¡No mezclemos casos!",
+      "characters": [
+        "Krono",
+        "Issi",
+        "Zeus"
+      ]
+    },
+    {
+      "speaker": "NARRADOR",
+      "text": "Kuky levantó la mirada lentamente. Tenía salsa de tomate en el bigote.",
+      "characters": [
+        "Kuky",
+        "Zeus"
+      ]
+    },
+    {
+      "speaker": "KRONO",
+      "text": "Kuky... ¿qué tienes en la cara?",
+      "characters": [
+        "Krono",
+        "Kuky"
+      ]
+    },
+    {
+      "speaker": "KUKY",
+      "text": "Es maquillaje italiano.",
+      "characters": [
+        "Krono",
+        "Kuky"
+      ]
+    },
+    {
+      "speaker": "PEPA",
+      "text": "Chicos, siempre pueden compartir.",
+      "characters": [
+        "Pepa",
+        "Krono",
+        "Issi",
+        "Kuky",
+        "Zeus"
+      ]
+    },
+    {
+      "speaker": "NARRADOR",
+      "text": "Todos se quedaron en silencio. Entonces Zeus se comió el último trocito.",
+      "characters": [
+        "Zeus",
+        "Krono",
+        "Issi",
+        "Kuky"
+      ]
+    },
+    {
+      "speaker": "ZEUS",
+      "text": "Claro. Ya compartí. Compartí el problema con ustedes.",
+      "characters": [
+        "Zeus",
+        "Krono",
+        "Issi",
+        "Kuky"
+      ]
+    },
+    {
+      "speaker": "NARRADOR",
+      "text": "El caso quedó cerrado. La paz familiar duró exactamente dos segundos.",
+      "characters": [
+        "Krono",
+        "Issi",
+        "Pepa",
+        "Kuky",
+        "Zeus"
+      ]
+    }
+  ]
+}
