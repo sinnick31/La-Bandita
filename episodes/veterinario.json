@@ -1,0 +1,98 @@
+{
+  "id": "veterinario",
+  "title": "Krono se cree veterinario",
+  "description": "Krono ve un vídeo de primeros auxilios y cree que ya dirige un hospital. #LaBandita #Comedia",
+  "scenes": [
+    {
+      "speaker": "NARRADOR",
+      "text": "Krono vio un vídeo de primeros auxilios y decidió que estaba preparado para dirigir un hospital.",
+      "characters": [
+        "Krono",
+        "Kuky"
+      ]
+    },
+    {
+      "speaker": "KRONO",
+      "text": "¡Paciente uno! ¡Tenemos una emergencia nasal!",
+      "characters": [
+        "Krono",
+        "Kuky"
+      ]
+    },
+    {
+      "speaker": "KUKY",
+      "text": "Solo fue un estornudo. No conviertas mi nariz en una telenovela.",
+      "characters": [
+        "Krono",
+        "Kuky"
+      ]
+    },
+    {
+      "speaker": "ZEUS",
+      "text": "Mi opinión profesional es que necesitas dejar de ver vídeos.",
+      "characters": [
+        "Zeus",
+        "Krono"
+      ]
+    },
+    {
+      "speaker": "KRONO",
+      "text": "Issi, tráeme el botiquín.",
+      "characters": [
+        "Krono",
+        "Issi"
+      ]
+    },
+    {
+      "speaker": "ISSI",
+      "text": "Encontré esto. Tiene cosas dentro.",
+      "characters": [
+        "Issi",
+        "Krono"
+      ]
+    },
+    {
+      "speaker": "ZEUS",
+      "text": "Son galletas.",
+      "characters": [
+        "Zeus",
+        "Issi",
+        "Krono"
+      ]
+    },
+    {
+      "speaker": "KRONO",
+      "text": "¡Galletas medicinales!",
+      "characters": [
+        "Krono",
+        "Zeus"
+      ]
+    },
+    {
+      "speaker": "PEPA",
+      "text": "A veces, ayudar significa reconocer cuándo necesitas ayuda.",
+      "characters": [
+        "Pepa",
+        "Krono",
+        "Kuky"
+      ]
+    },
+    {
+      "speaker": "KRONO",
+      "text": "Está bien. Llamaré a un veterinario de verdad.",
+      "characters": [
+        "Krono",
+        "Kuky"
+      ]
+    },
+    {
+      "speaker": "ZEUS",
+      "text": "¡Milagro! ¡El paciente más grave acaba de mejorar!",
+      "characters": [
+        "Zeus",
+        "Krono",
+        "Kuky"
+      ]
+    }
+  ]
+}
