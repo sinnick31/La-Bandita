@@ -1,0 +1,58 @@
+name: La Bandita | Generar episodio
+
+on:
+  workflow_dispatch:
+    inputs:
+      episode:
+        description: Historia que quieres producir
+        required: true
+        type: choice
+        options: [pizza, veterinario, kuky]
+      format:
+        description: Formato del vídeo
+        required: true
+        type: choice
+        default: short
+        options: [short, largo]
+  push:
+    paths:
+      - episodes/**
+      - scripts/build_episode.py
+      - .github/workflows/build-episode.yml
+
+permissions:
+  contents: read
+
+concurrency:
+  group: la-bandita-video
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - name: Descargar repositorio
+        uses: actions/checkout@v4
+      - name: Instalar herramientas audiovisuales
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y ffmpeg espeak-ng fonts-dejavu-core
+          python -m pip install --upgrade pip
+          python -m pip install pillow
+      - name: Crear vídeo, voces y subtítulos
+        env:
+          EPISODE_ID: ${{ inputs.episode || 'pizza' }}
+          VIDEO_FORMAT: ${{ inputs.format || 'short' }}
+        run: python scripts/build_episode.py
+      - name: Verificar archivo final
+        run: |
+          test -s dist/la-bandita.mp4
+          ffprobe -v error -show_entries format=duration -of default=noprint_wrappers=1 dist/la-bandita.mp4
+      - name: Subir vídeo y metadatos
+        uses: actions/upload-artifact@v4
+        with:
+          name: la-bandita-${{ inputs.episode || 'pizza' }}-${{ inputs.format || 'short' }}
+          path: dist/
+          if-no-files-found: error
+          retention-days: 14
