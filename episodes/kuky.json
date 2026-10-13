@@ -1,0 +1,104 @@
+{
+  "id": "kuky",
+  "title": "Kuky se va de casa",
+  "description": "Kuky declara su independencia por culpa de un cojín. La despedida no sale como esperaba. #LaBandita #Humor",
+  "scenes": [
+    {
+      "speaker": "NARRADOR",
+      "text": "Kuky anunció que se marchaba para siempre. El motivo: alguien había usado su cojín.",
+      "characters": [
+        "Kuky",
+        "Krono",
+        "Zeus"
+      ]
+    },
+    {
+      "speaker": "KUKY",
+      "text": "¡Me voy! ¡Buscaré una familia que respete mis derechos!",
+      "characters": [
+        "Kuky",
+        "Krono",
+        "Issi"
+      ]
+    },
+    {
+      "speaker": "ISSI",
+      "text": "¿Te llevas tus juguetes?",
+      "characters": [
+        "Issi",
+        "Kuky"
+      ]
+    },
+    {
+      "speaker": "KUKY",
+      "text": "¡Todos! Y toda mi comida.",
+      "characters": [
+        "Kuky",
+        "Zeus"
+      ]
+    },
+    {
+      "speaker": "ZEUS",
+      "text": "Una despedida muy emotiva. ¿Puedo quedarme con tu sitio?",
+      "characters": [
+        "Zeus",
+        "Kuky"
+      ]
+    },
+    {
+      "speaker": "NARRADOR",
+      "text": "Kuky cruzó la puerta, caminó unos pasos y se sentó a esperar.",
+      "characters": [
+        "Kuky"
+      ]
+    },
+    {
+      "speaker": "KUKY",
+      "text": "Qué raro. Nadie viene a detenerme.",
+      "characters": [
+        "Kuky"
+      ]
+    },
+    {
+      "speaker": "ISSI",
+      "text": "¡Kuky, te deseamos lo mejor!",
+      "characters": [
+        "Issi",
+        "Kuky"
+      ]
+    },
+    {
+      "speaker": "KUKY",
+      "text": "¡Se suponía que tenían que rogarme que volviera!",
+      "characters": [
+        "Kuky",
+        "Issi"
+      ]
+    },
+    {
+      "speaker": "PEPA",
+      "text": "A veces queremos que nos pidan que nos quedemos, porque queremos saber que nos quieren.",
+      "characters": [
+        "Pepa",
+        "Kuky",
+        "Krono"
+      ]
+    },
+    {
+      "speaker": "KRONO",
+      "text": "Tu sitio está aquí. Pero el cojín se comparte.",
+      "characters": [
+        "Krono",
+        "Kuky"
+      ]
+    },
+    {
+      "speaker": "ZEUS",
+      "text": "Y así termina la independencia más corta de la historia.",
+      "characters": [
+        "Zeus",
+        "Kuky"
+      ]
+    }
+  ]
+}
